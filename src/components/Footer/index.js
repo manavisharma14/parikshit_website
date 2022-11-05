@@ -35,9 +35,9 @@ const Footer = () => {
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
               
               <FooterLink to ="/about">Shivani S</FooterLink>
-              <FooterLink to ="/about">+919207744282</FooterLink>
+              <FooterLink to ="/about">+91 9207744282</FooterLink>
               <FooterLink to ="/about">shivanisreena@gmail.com</FooterLink>
-              <FooterLink to ="/about">parikshit.musat@gamil.com</FooterLink>
+              <FooterLink to ="/about">parikshit.musat@gmail.com</FooterLink>
              
           </FooterLinkItems>
           </FooterLinksWrapper>
@@ -47,7 +47,7 @@ const Footer = () => {
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterMediaIcons>
               <a
-                href="https://www.instagram.com/shivani_7s/"
+                href="https://www.instagram.com/parikshitsatellite/"
                 className="instagram social"
               >
                 <FontAwesomeIcon icon={faInstagram} size="2x" color="#fff" />
@@ -56,21 +56,21 @@ const Footer = () => {
 
             <FooterMediaIcons>
               <a
-                href=""
+                href="https://www.linkedin.com/company/parikshit-student-satellite/mycompany/"
                 className="instagram social"
               >
                 <FontAwesomeIcon icon={faLinkedinIn} size="2x" color="#fff" />
               </a>
             </FooterMediaIcons>
 
-            <FooterMediaIcons>
+            {/* <FooterMediaIcons>
               <a
                 href=""
                 className="instagram social"
               >
                 <FontAwesomeIcon icon={faFacebook} size="2x" color="#fff" />
               </a>
-            </FooterMediaIcons>
+            </FooterMediaIcons> */}
 
             
           </FooterLinkItems>
